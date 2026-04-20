@@ -1,14 +1,14 @@
 // // 1
-// let a1 = 87;
-// let b1 = 65;
-// console.log(a1 + b1);
+// let a = 87;
+// let b = 65;
+// console.log(a + b);
 
 // // 2
 // let student = {
 //   firstName: "test1",
 //   lastName: "Test11",
 //   age: 20,
-//   email: "test@gmail.com",
+//   email: "test22@gmail.com",
 //   marks: [8, 6, 4, 12]
 // };
 
