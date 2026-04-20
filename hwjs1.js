@@ -5,10 +5,10 @@
 
 // // 2
 // let student = {
-//   firstName: "John",
-//   lastName: "Doe",
+//   firstName: "test1",
+//   lastName: "Test11",
 //   age: 20,
-//   email: "john@example.com",
+//   email: "test@gmail.com",
 //   marks: [8, 6, 4, 12]
 // };
 
