@@ -1,7 +1,7 @@
 // 1
 let a1 = 87;
 let b1 = 65;
-console.log(a + b);
+console.log(a1 + b1);
 
 // 2
 let student = {
