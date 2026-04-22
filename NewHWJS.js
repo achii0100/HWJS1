@@ -36,3 +36,22 @@
 //     ბონუსი = 0;
 // }
 // console.log (ბონუსი);
+
+// // 6
+// const fruits = ['apple', 'banana', 'orange'];
+// for (let i = 0; i < fruits.length ; i++){
+//     console.log (fruits[i])
+// }
+
+// // 7
+// const fruits = ['apple', 'banana', 'orange'];
+// fruits.unshift('grapes')
+// fruits.push('Pineapples')
+// console.log (fruits)
+
+// // 8
+// let plus = 0;
+// for (let i=1; i <=34; i++){
+//     plus = plus + i
+// }
+// console.log(plus)
