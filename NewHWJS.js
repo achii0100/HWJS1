@@ -44,10 +44,10 @@
 // }
 
 // // 7
-// const fruits = ['apple', 'banana', 'orange'];
+// {const fruits = ['apple', 'banana', 'orange'];
 // fruits.unshift('grapes')
 // fruits.push('Pineapples')
-// console.log (fruits)
+// console.log (fruits)}
 
 // // 8
 // let plus = 0;
