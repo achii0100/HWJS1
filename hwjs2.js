@@ -22,7 +22,7 @@ function flname (){
 function filaname (FirstName,LastName){
     return FirstName+' '+LastName;
 }
-// console.log(filaname("Achii"+' '+"Tsiklauri"))
+// console.log(filaname("Achii", "Tsiklauri"))
 // 5. Დაწერეთ ფუნქცია რომელსაც გადასცემთ ერთ რიცხვს (n) და ფუნქციამ უნდა დააბრუნოს 1 დან ამ რიცხვამდე  
 //     (n-მდე) რიცხვების ნამრავლი ( ანუ თუ რიცხვი არის 3 ფუნქციამ უნდა დააბრუნოს 1*2*3 -ის მნიშვნელობა,
 //      დაგჭირდებათ ახალი ცვლადის გამოცხადება ფუნქციის შიგნით რომელსაც მიანიჭებთ ნამრავლის მნიშვნელობას. 
