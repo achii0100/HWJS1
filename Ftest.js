@@ -152,15 +152,35 @@
 // gg(78);
 
 
-let student = {
-    FirstName: 'Archil',
-    scores: [10, 15, 20],
-    grade:function(){
-        let jami = 0
-        for (const element of this.scores) {
-            jami = jami +element
-        }
-        return jami
-    }
-}
-console.log(student.grade())
+// let student = {
+//     FirstName: 'Archil',
+//     scores: [10, 15, 20],
+//     grade:function(){
+//         let jami = 0
+//         for (const element of this.scores) {
+//             jami = jami +element
+//         }
+//         return jami
+//     }
+// }
+// console.log(student.grade())
+
+// function change(n){
+//     let result = 1;
+//     for(let i=1; i <=3; i++ ){
+//         result=result * i;
+//     }
+//    return result;
+// }
+// console.log(change())
+
+// function number(n){ let result = 0;
+//     for(let i=1; i<=n; i++){
+//         result+=i;
+//     }
+//     return result;
+// }
+
+
+
+

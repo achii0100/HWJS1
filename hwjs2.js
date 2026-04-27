@@ -48,13 +48,13 @@ const student={
 }
 console.log(student.FLname());
 // 7. Დაწერეთ ფუნქცია რომელსაც გადასცემთ სტუდენტის ქულებს ( scores) და ფუნქცია დააბრუნებს  ქულების ჯამს
-function scr(scores){
-    let summ = 0;
+function scores(scores){
+    let sum = 0;
     for(let i of scores){
-        summ=summ + i;
+        sum=sum + i;
     }
-    return summ;
+    return sum;
 }
-console.log(scr([]))
+console.log(student.scores)
 // 8. დაბეჭდეთ სტუდენტის სახელი და ასაკი
 console.log(student.firstName, student.age);
