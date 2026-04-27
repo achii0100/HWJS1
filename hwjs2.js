@@ -6,23 +6,23 @@ function feedb (m,n){
     else if(m < n) return n;
     else return 0;
 }
-// console.log(feedb());
+console.log(feedb());
 // 2. დაწერეთ ფუნქცია რომელსაც გადასცემთ ორ ცვლადს(რიცხვს), დააბრუნეთ რიცხვების ჯამი
 function numb (a,b){
     return a+b;
 }
-// console.log(numb())
+console.log(numb())
 // 3. დაწერეთ ფუნქცია რომელიც დააბეჭდავს თქვენ სახელს და გვარს ( ფუნქციას არ აქვს პარამეტრი)
 function flname (){
     console.log("Achii Tsiklauri");
 }
-// flname()
+flname()
 // 4. დაწერეთ ფუნქცია ორი პარამეტრით : firstname და lastname დააბრუნეთ სრული სახელი და დაბეჭდეთ 
 // (ფუნქცია აბრუნებს სრულ სახელს და ფუნქციის გარეთ ბეჭდავთ)
 function filaname (FirstName,LastName){
     return FirstName+' '+LastName;
 }
-// console.log(filaname("Achii", "Tsiklauri"))
+console.log(filaname("Achii", "Tsiklauri"))
 // 5. Დაწერეთ ფუნქცია რომელსაც გადასცემთ ერთ რიცხვს (n) და ფუნქციამ უნდა დააბრუნოს 1 დან ამ რიცხვამდე  
 //     (n-მდე) რიცხვების ნამრავლი ( ანუ თუ რიცხვი არის 3 ფუნქციამ უნდა დააბრუნოს 1*2*3 -ის მნიშვნელობა,
 //      დაგჭირდებათ ახალი ცვლადის გამოცხადება ფუნქციის შიგნით რომელსაც მიანიჭებთ ნამრავლის მნიშვნელობას. 
@@ -34,7 +34,7 @@ function change(n){
     }
    return result;
 }
-// console.log(change())
+console.log(change())
 // 6. დაბეჭდეთ  სტუდენტის სრული სახელი (სახელი+გვარი-  გამოიყენეთ student ობიექტის მეთოდი)
 const student={
     firstName: "test1",
@@ -46,7 +46,7 @@ const student={
         return this.firstName+' '+this.lastName;
     }
 }
-// console.log(student.FLname());
+console.log(student.FLname());
 // 7. Დაწერეთ ფუნქცია რომელსაც გადასცემთ სტუდენტის ქულებს ( scores) და ფუნქცია დააბრუნებს  ქულების ჯამს
 function scr(scores){
     let summ = 0;
@@ -55,6 +55,6 @@ function scr(scores){
     }
     return summ;
 }
-// console.log(scr([]))
+console.log(scr([]))
 // 8. დაბეჭდეთ სტუდენტის სახელი და ასაკი
-// console.log(student.FirstName, student.age);
+console.log(student.firstName, student.age);
