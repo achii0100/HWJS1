@@ -16,6 +16,7 @@ function numb (a,b){
 function flname (){
     console.log("Achii Tsiklauri");
 }
+flname()
 // 4. დაწერეთ ფუნქცია ორი პარამეტრით : firstname და lastname დააბრუნეთ სრული სახელი და დაბეჭდეთ 
 // (ფუნქცია აბრუნებს სრულ სახელს და ფუნქციის გარეთ ბეჭდავთ)
 function filaname (FirstName,LastName){
