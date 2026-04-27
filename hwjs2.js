@@ -16,7 +16,7 @@ function numb (a,b){
 function flname (){
     console.log("Achii Tsiklauri");
 }
-flname()
+// flname()
 // 4. დაწერეთ ფუნქცია ორი პარამეტრით : firstname და lastname დააბრუნეთ სრული სახელი და დაბეჭდეთ 
 // (ფუნქცია აბრუნებს სრულ სახელს და ფუნქციის გარეთ ბეჭდავთ)
 function filaname (FirstName,LastName){
@@ -48,13 +48,13 @@ const student={
 }
 // console.log(student.FLname());
 // 7. Დაწერეთ ფუნქცია რომელსაც გადასცემთ სტუდენტის ქულებს ( scores) და ფუნქცია დააბრუნებს  ქულების ჯამს
-function score(scores){
+function scr(scores){
     let summ = 0;
     for(let i of scores){
         summ=summ + i;
     }
     return summ;
 }
-// console.log(score([]))
+// console.log(scr([]))
 // 8. დაბეჭდეთ სტუდენტის სახელი და ასაკი
 // console.log(student.FirstName, student.age);
