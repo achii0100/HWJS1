@@ -40,7 +40,7 @@ const student={
     firstName: "test1",
     lastName: "test2",
     age: 21,
-    scoreы:[4,7,5,3,2],
+    scores:[4,7,5,3,2],
 
     FLname: function(){
         return this.firstName+' '+this.lastName;
