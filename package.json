@@ -1,0 +1,23 @@
+{
+  "name": "hwjs1",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/achii0100/HWJS1#readme",
+  "bugs": {
+    "url": "https://github.com/achii0100/HWJS1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/achii0100/HWJS1.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "Ftest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "cypress": "^15.14.1"
+  }
+}
